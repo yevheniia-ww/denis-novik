@@ -29,6 +29,7 @@ body {
     list-style-type: none;
     width: 496px;
     margin: 0 auto;
+    padding-left: 0
 }
 
 
@@ -161,8 +162,6 @@ p {
 
 .button {
     display: inline-block;
-    justify-content: center;
-    align-items: center;
     background-color: #555B6E;
     padding: 20px 32px;
     color: #FAF9F9;
