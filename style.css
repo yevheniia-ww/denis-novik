@@ -41,6 +41,7 @@ body {
 
 .nav-link:hover {
     color: #4B3B40;
+    font-weight: 700;
 }
 
 h1 {
@@ -167,13 +168,18 @@ p {
     color: #FAF9F9;
     border-radius: 32px;
     text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
 }
+
 
 
 .button:hover,
 .button:focus {
     background-color: #4B3B40;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(75, 59, 64, 0.35);
 }
+
 
 .social-list {
     display: flex;
@@ -183,6 +189,15 @@ p {
     gap: 80px;
     margin: 0 auto;
     padding-left: 0;
+}
+
+.social-link {
+    display: inline-block;
+    transition: opacity 0.3s;
+}
+
+.social-link:hover {
+    opacity: 0.5;
 }
 
 .social-icon {
